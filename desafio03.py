@@ -27,7 +27,7 @@ while len(arrayFinal) == 0:
 
     #Percorrendo a lista com as combinações criadas e verificando quais delas, quando somadas, são iguais ao numero informado na variavel n.
     for i in range(len(temp)):
-        if sum(temp[i]) == 10:
+        if sum(temp[i]) == n:
             arrayFinal.append(temp[i])
     tamanhoArray += 1
 
